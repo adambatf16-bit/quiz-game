@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: quiz-game
+    runtime: node
+    plan: free
+    buildCommand: corepack enable && pnpm install --frozen-lockfile && pnpm build
+    startCommand: pnpm start
