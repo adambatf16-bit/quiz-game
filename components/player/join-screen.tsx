@@ -36,7 +36,7 @@ export function JoinScreen({ defaultNickname, canJoin, onJoin }: JoinScreenProps
       <div className="flex flex-col items-center gap-4">
         <GameTitle />
         <p className="max-w-md text-balance text-center text-lg text-muted-foreground md:text-xl">
-          5 أسئلة، 10 ثوانٍ لكل سؤال. هل تستطيع اكتشاف أخطاء البيانات؟
+          10 أسئلة، 10 ثوانٍ لكل سؤال. هل تستطيع اكتشاف أخطاء البيانات؟
         </p>
       </div>
 
