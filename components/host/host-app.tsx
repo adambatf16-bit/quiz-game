@@ -76,7 +76,7 @@ export function HostApp() {
         <section className="flex flex-1 flex-col items-center gap-6 lg:items-start">
           <GameTitle />
           <p className="text-balance text-center text-xl text-muted-foreground lg:text-start md:text-2xl">
-            10 أسئلة، 10 ثوانٍ لكل سؤال. امسح الرمز وادخل باسم مستعار.
+            10 أسئلة، 20 ثانية لكل سؤال. امسح الرمز وادخل باسم مستعار.
           </p>
           {joinUrl && (
             <div className="flex flex-col items-center gap-3 lg:items-start">

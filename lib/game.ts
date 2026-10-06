@@ -1,7 +1,7 @@
 import { QUESTIONS } from './questions'
 import type { GameState, LeaderboardEntry, Phase } from './types'
 
-export const QUESTION_MS = 10_000
+export const QUESTION_MS = 20_000
 export const REVEAL_MS = 6_000
 
 /* ---------------------------------------------------------------------------
